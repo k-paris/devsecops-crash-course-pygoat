@@ -38,7 +38,7 @@ chatbot = ChatBot(
 trainer = ListTrainer(chatbot)
 trainer.train(training_data)
 
-print("Welcome to PyGoatBot! Type 'q' or 'exit' to quit.")
+print("Welcome to PyGoatBot! Type 'q' or 'exit' to quit (test).")
 while True:
     try:
         user_input = input("You: ")
